@@ -5,6 +5,7 @@ Esse sistema possui um LED RGB e três potenciômetros. Cada potenciômetro cont
 
 Código escrito do projeto:
 
+```bash
 // C++ code
 //
 int pote_a2 = 0;
@@ -33,6 +34,7 @@ void loop()
   analogWrite(6, map(pote_a4, 0, 1023, 0, 255));
   delay(10); // Delay a little bit to improve simulation performance
 }
+```
 Código em blocos:
 <p align="center">
 <img width="524" height="459" alt="image" src="https://github.com/user-attachments/assets/e1659c38-a768-40fb-9711-7ec2b2c9f14e" />
