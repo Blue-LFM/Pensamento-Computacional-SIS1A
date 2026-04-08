@@ -33,10 +33,13 @@ void loop()
   analogWrite(6, map(pote_a4, 0, 1023, 0, 255));
   delay(10); // Delay a little bit to improve simulation performance
 }
+Código em blocos:
+<p align="center">
+<img width="524" height="459" alt="image" src="https://github.com/user-attachments/assets/e1659c38-a768-40fb-9711-7ec2b2c9f14e" />
+</p>
 
 O potenciômetro ligado na porta A2 controla a intensidade de vermelho no LED.
 O potenciômetro ligado na porta A3 controla a intensidade de azul no LED.
 O potenciômetro ligado na porta A4 controla a intensidade de verde no LED.
 
-<img width="524" height="459" alt="image" src="https://github.com/user-attachments/assets/e1659c38-a768-40fb-9711-7ec2b2c9f14e" />
 
